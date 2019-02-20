@@ -8,20 +8,66 @@
 
 /* Begin PBXBuildFile section */
 		6C74B232221D56E100501A9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C74B231221D56E100501A9B /* AppDelegate.swift */; };
-		6C74B234221D56E100501A9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C74B233221D56E100501A9B /* ViewController.swift */; };
 		6C74B237221D56E100501A9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C74B235221D56E100501A9B /* Main.storyboard */; };
 		6C74B239221D56E200501A9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C74B238221D56E200501A9B /* Assets.xcassets */; };
 		6C74B23C221D56E200501A9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C74B23A221D56E200501A9B /* LaunchScreen.storyboard */; };
+		6C74B246221D573200501A9B /* ClasesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C74B244221D573200501A9B /* ClasesViewController.swift */; };
+		6C74B247221D573200501A9B /* ClasesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C74B245221D573200501A9B /* ClasesViewController.xib */; };
+		6C74B24A221D574300501A9B /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C74B248221D574300501A9B /* NotesViewController.swift */; };
+		6C74B24B221D574300501A9B /* NotesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C74B249221D574300501A9B /* NotesViewController.xib */; };
+		6C74B24E221D575700501A9B /* StudentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C74B24C221D575700501A9B /* StudentsViewController.swift */; };
+		6C74B24F221D575700501A9B /* StudentsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C74B24D221D575700501A9B /* StudentsViewController.xib */; };
+		6C74B252221D578700501A9B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C74B250221D578700501A9B /* MainViewController.swift */; };
+		6C74B253221D578700501A9B /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C74B251221D578700501A9B /* MainViewController.xib */; };
+		6C74B256221D5D4300501A9B /* MStudents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C74B255221D5D4300501A9B /* MStudents.swift */; };
+		6C74B259221D5DA500501A9B /* EStudents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C74B258221D5DA500501A9B /* EStudents.swift */; };
+		6C74B25D221D5F0E00501A9B /* StudentsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C74B25B221D5F0E00501A9B /* StudentsCollectionViewCell.swift */; };
+		6C74B25E221D5F0E00501A9B /* StudentsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C74B25C221D5F0E00501A9B /* StudentsCollectionViewCell.xib */; };
+		6C74B261221D61A200501A9B /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C74B260221D61A200501A9B /* Repository.swift */; };
+		6C74B263221D61C300501A9B /* LocalStudentsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C74B262221D61C300501A9B /* LocalStudentsRepository.swift */; };
+		6C74B265221D62C500501A9B /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C74B264221D62C500501A9B /* Session.swift */; };
+		6C74B267221D67E400501A9B /* EClases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C74B266221D67E400501A9B /* EClases.swift */; };
+		6C74B269221D67EC00501A9B /* MClases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C74B268221D67EC00501A9B /* MClases.swift */; };
+		6C74B26B221D68B100501A9B /* LocalClasesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C74B26A221D68B100501A9B /* LocalClasesRepository.swift */; };
+		6C74B26E221D69C100501A9B /* ClasesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C74B26C221D69C100501A9B /* ClasesCollectionViewCell.swift */; };
+		6C74B26F221D69C100501A9B /* ClasesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C74B26D221D69C100501A9B /* ClasesCollectionViewCell.xib */; };
+		6C74B278221D74CB00501A9B /* NotesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C74B276221D74CB00501A9B /* NotesCollectionViewCell.swift */; };
+		6C74B279221D74CB00501A9B /* NotesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C74B277221D74CB00501A9B /* NotesCollectionViewCell.xib */; };
+		C1B3A79B9F21F402A1F7B3BE /* Pods_ExamenIOs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A53E60AE15623DB42BF5B4 /* Pods_ExamenIOs.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5EBB0B9803963AE87C0EBA1C /* Pods-ExamenIOs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExamenIOs.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExamenIOs/Pods-ExamenIOs.release.xcconfig"; sourceTree = "<group>"; };
 		6C74B22E221D56E100501A9B /* ExamenIOs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExamenIOs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C74B231221D56E100501A9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6C74B233221D56E100501A9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6C74B236221D56E100501A9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6C74B238221D56E200501A9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C74B23B221D56E200501A9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C74B23D221D56E200501A9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C74B244221D573200501A9B /* ClasesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClasesViewController.swift; sourceTree = "<group>"; };
+		6C74B245221D573200501A9B /* ClasesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClasesViewController.xib; sourceTree = "<group>"; };
+		6C74B248221D574300501A9B /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		6C74B249221D574300501A9B /* NotesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotesViewController.xib; sourceTree = "<group>"; };
+		6C74B24C221D575700501A9B /* StudentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsViewController.swift; sourceTree = "<group>"; };
+		6C74B24D221D575700501A9B /* StudentsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StudentsViewController.xib; sourceTree = "<group>"; };
+		6C74B250221D578700501A9B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		6C74B251221D578700501A9B /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		6C74B255221D5D4300501A9B /* MStudents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MStudents.swift; sourceTree = "<group>"; };
+		6C74B258221D5DA500501A9B /* EStudents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EStudents.swift; sourceTree = "<group>"; };
+		6C74B25B221D5F0E00501A9B /* StudentsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsCollectionViewCell.swift; sourceTree = "<group>"; };
+		6C74B25C221D5F0E00501A9B /* StudentsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StudentsCollectionViewCell.xib; sourceTree = "<group>"; };
+		6C74B260221D61A200501A9B /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		6C74B262221D61C300501A9B /* LocalStudentsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStudentsRepository.swift; sourceTree = "<group>"; };
+		6C74B264221D62C500501A9B /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		6C74B266221D67E400501A9B /* EClases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EClases.swift; sourceTree = "<group>"; };
+		6C74B268221D67EC00501A9B /* MClases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MClases.swift; sourceTree = "<group>"; };
+		6C74B26A221D68B100501A9B /* LocalClasesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalClasesRepository.swift; sourceTree = "<group>"; };
+		6C74B26C221D69C100501A9B /* ClasesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClasesCollectionViewCell.swift; sourceTree = "<group>"; };
+		6C74B26D221D69C100501A9B /* ClasesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClasesCollectionViewCell.xib; sourceTree = "<group>"; };
+		6C74B276221D74CB00501A9B /* NotesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesCollectionViewCell.swift; sourceTree = "<group>"; };
+		6C74B277221D74CB00501A9B /* NotesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotesCollectionViewCell.xib; sourceTree = "<group>"; };
+		807B4FF837897FDD875B5DAE /* Pods-ExamenIOs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExamenIOs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExamenIOs/Pods-ExamenIOs.debug.xcconfig"; sourceTree = "<group>"; };
+		D9A53E60AE15623DB42BF5B4 /* Pods_ExamenIOs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExamenIOs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +75,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1B3A79B9F21F402A1F7B3BE /* Pods_ExamenIOs.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AF7E16A4C957C3CCD8E9CFE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				807B4FF837897FDD875B5DAE /* Pods-ExamenIOs.debug.xcconfig */,
+				5EBB0B9803963AE87C0EBA1C /* Pods-ExamenIOs.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		68BB54D9F4D3017BD5CFD028 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9A53E60AE15623DB42BF5B4 /* Pods_ExamenIOs.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6C74B225221D56E000501A9B = {
 			isa = PBXGroup;
 			children = (
 				6C74B230221D56E100501A9B /* ExamenIOs */,
 				6C74B22F221D56E100501A9B /* Products */,
+				0AF7E16A4C957C3CCD8E9CFE /* Pods */,
+				68BB54D9F4D3017BD5CFD028 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +120,75 @@
 		6C74B230221D56E100501A9B /* ExamenIOs */ = {
 			isa = PBXGroup;
 			children = (
+				6C74B25F221D619000501A9B /* Repository */,
+				6C74B25A221D5EF100501A9B /* Items */,
+				6C74B257221D5D9700501A9B /* Entities */,
+				6C74B254221D5D3000501A9B /* Models */,
+				6C74B243221D570D00501A9B /* ViewControllers */,
 				6C74B231221D56E100501A9B /* AppDelegate.swift */,
-				6C74B233221D56E100501A9B /* ViewController.swift */,
 				6C74B235221D56E100501A9B /* Main.storyboard */,
 				6C74B238221D56E200501A9B /* Assets.xcassets */,
 				6C74B23A221D56E200501A9B /* LaunchScreen.storyboard */,
 				6C74B23D221D56E200501A9B /* Info.plist */,
+				6C74B264221D62C500501A9B /* Session.swift */,
 			);
 			path = ExamenIOs;
+			sourceTree = "<group>";
+		};
+		6C74B243221D570D00501A9B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6C74B244221D573200501A9B /* ClasesViewController.swift */,
+				6C74B245221D573200501A9B /* ClasesViewController.xib */,
+				6C74B248221D574300501A9B /* NotesViewController.swift */,
+				6C74B249221D574300501A9B /* NotesViewController.xib */,
+				6C74B24C221D575700501A9B /* StudentsViewController.swift */,
+				6C74B24D221D575700501A9B /* StudentsViewController.xib */,
+				6C74B250221D578700501A9B /* MainViewController.swift */,
+				6C74B251221D578700501A9B /* MainViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6C74B254221D5D3000501A9B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6C74B255221D5D4300501A9B /* MStudents.swift */,
+				6C74B268221D67EC00501A9B /* MClases.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6C74B257221D5D9700501A9B /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				6C74B258221D5DA500501A9B /* EStudents.swift */,
+				6C74B266221D67E400501A9B /* EClases.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		6C74B25A221D5EF100501A9B /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				6C74B25B221D5F0E00501A9B /* StudentsCollectionViewCell.swift */,
+				6C74B25C221D5F0E00501A9B /* StudentsCollectionViewCell.xib */,
+				6C74B26C221D69C100501A9B /* ClasesCollectionViewCell.swift */,
+				6C74B26D221D69C100501A9B /* ClasesCollectionViewCell.xib */,
+				6C74B276221D74CB00501A9B /* NotesCollectionViewCell.swift */,
+				6C74B277221D74CB00501A9B /* NotesCollectionViewCell.xib */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		6C74B25F221D619000501A9B /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				6C74B260221D61A200501A9B /* Repository.swift */,
+				6C74B262221D61C300501A9B /* LocalStudentsRepository.swift */,
+				6C74B26A221D68B100501A9B /* LocalClasesRepository.swift */,
+			);
+			path = Repository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C74B240221D56E200501A9B /* Build configuration list for PBXNativeTarget "ExamenIOs" */;
 			buildPhases = (
+				4D4EFB154625A2AD5CC73D6F /* [CP] Check Pods Manifest.lock */,
 				6C74B22A221D56E100501A9B /* Sources */,
 				6C74B22B221D56E100501A9B /* Frameworks */,
 				6C74B22C221D56E100501A9B /* Resources */,
+				04324C90874DE87577408B27 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,21 +251,83 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C74B279221D74CB00501A9B /* NotesCollectionViewCell.xib in Resources */,
+				6C74B25E221D5F0E00501A9B /* StudentsCollectionViewCell.xib in Resources */,
+				6C74B24F221D575700501A9B /* StudentsViewController.xib in Resources */,
 				6C74B23C221D56E200501A9B /* LaunchScreen.storyboard in Resources */,
+				6C74B26F221D69C100501A9B /* ClasesCollectionViewCell.xib in Resources */,
 				6C74B239221D56E200501A9B /* Assets.xcassets in Resources */,
 				6C74B237221D56E100501A9B /* Main.storyboard in Resources */,
+				6C74B247221D573200501A9B /* ClasesViewController.xib in Resources */,
+				6C74B253221D578700501A9B /* MainViewController.xib in Resources */,
+				6C74B24B221D574300501A9B /* NotesViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04324C90874DE87577408B27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ExamenIOs/Pods-ExamenIOs-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExamenIOs/Pods-ExamenIOs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D4EFB154625A2AD5CC73D6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExamenIOs-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6C74B22A221D56E100501A9B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C74B234221D56E100501A9B /* ViewController.swift in Sources */,
+				6C74B24A221D574300501A9B /* NotesViewController.swift in Sources */,
+				6C74B259221D5DA500501A9B /* EStudents.swift in Sources */,
+				6C74B263221D61C300501A9B /* LocalStudentsRepository.swift in Sources */,
+				6C74B269221D67EC00501A9B /* MClases.swift in Sources */,
+				6C74B26B221D68B100501A9B /* LocalClasesRepository.swift in Sources */,
+				6C74B256221D5D4300501A9B /* MStudents.swift in Sources */,
 				6C74B232221D56E100501A9B /* AppDelegate.swift in Sources */,
+				6C74B278221D74CB00501A9B /* NotesCollectionViewCell.swift in Sources */,
+				6C74B252221D578700501A9B /* MainViewController.swift in Sources */,
+				6C74B24E221D575700501A9B /* StudentsViewController.swift in Sources */,
+				6C74B265221D62C500501A9B /* Session.swift in Sources */,
+				6C74B26E221D69C100501A9B /* ClasesCollectionViewCell.swift in Sources */,
+				6C74B261221D61A200501A9B /* Repository.swift in Sources */,
+				6C74B246221D573200501A9B /* ClasesViewController.swift in Sources */,
+				6C74B267221D67E400501A9B /* EClases.swift in Sources */,
+				6C74B25D221D5F0E00501A9B /* StudentsCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +469,7 @@
 		};
 		6C74B241221D56E200501A9B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 807B4FF837897FDD875B5DAE /* Pods-ExamenIOs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +488,7 @@
 		};
 		6C74B242221D56E200501A9B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EBB0B9803963AE87C0EBA1C /* Pods-ExamenIOs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
